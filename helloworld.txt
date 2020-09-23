@@ -1,0 +1,52 @@
+Why even git?
+
+	So first SDLC: Sw dev life cycle: follows the path of dev life of a sw
+	It has certain phases. In agile, you have dsa: daily status assessment:
+	task devided into user stories (3-4 line chunks) that can be delivered in certain 
+	time frame (sprint) which is usually 2-3 weeks. Difference between 
+	devops and agile? devops works on top of agile, dev ops means, development+operations:
+	devops gives faster delivery of sw. dev ops: right tools for automation to achieve continuous delivery
+	and continuous deployment.
+
+	So with continual changes in the project documents, manual version control is not possible.
+	[Again in a fast paced dev environment: testing is automated too.] This is where git comes into picture.
+	We require a system for version control. 
+
+What is vcs?
+
+	version: snapshots of your prject documents. And a system which controls this is vcs
+
+what is scm:
+
+	source code managemen
+
+what is git?
+	directory content management
+	distributed vcs
+	STUPID CONTENT TRACKER- git treats illogical changes like adding space as change of version
+	THE WORD GIT IN BRITISh slang means stupid 
+
+Centralized vs Distributed?
+	center: strict client server architecture
+	distri: push changes from local to remote, those who wanna change pull from remote to local
+	git operates locally ie installed on client
+	interacts with older tools like svn etc
+
+Local operations:
+	working directory- whatever change you make to working directory cannot be directly commited to repository
+		For a change to be committed, it needs to be added to the staging area first. 
+		the .git created at the time of initialization is our working directory
+		you mostly don't open that folder, like it is definitely for advance users 
+	staging area- behaves like caches (cache area/indexed area). its like a checkpoint before you commit finally
+		and allows us to self check. Sometimes a task is devided into subtasks. And it can be added to the 
+		staging area, so that unfinished tasks or un tested tasks are not committed to the repo. 
+		multiple files can be added at once using comma separated notation
+	git directory/repository- 
+
+Highly secure: 
+	MD5/MD8 
+	SHA key 
+	
+  
+
+	
