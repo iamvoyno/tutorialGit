@@ -41,11 +41,25 @@ Local operations:
 		and allows us to self check. Sometimes a task is devided into subtasks. And it can be added to the 
 		staging area, so that unfinished tasks or un tested tasks are not committed to the repo. 
 		multiple files can be added at once using comma separated notation
-	git directory/repository- -m argument has to be given in detail before commiting for description
+	git directory/repository- -m argument has to be given in detail before commiting for description; msg 
+		length has a limitation on message lenght, so lenghty messages should be written as a string in the 
+		editor of your choice 
 
 Highly secure: 
 	MD5/MD8 
 	SHA key 
+
+Head pointer:
+	After running the git log, you will see head pointer which can be moved to any change you made previously
+	Hence called time machine
+
+Note:TRY TO ALWAYS KEEP YOUR WORKING TREE CLEAN
+
+Checkout has mutliple roles:
+	followed by branch, sha key it changes the head position
+	followed by file name, it rolls back changes to the last stable version
+
+
 	
   
 
