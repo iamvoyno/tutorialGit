@@ -41,7 +41,7 @@ Local operations:
 		and allows us to self check. Sometimes a task is devided into subtasks. And it can be added to the 
 		staging area, so that unfinished tasks or un tested tasks are not committed to the repo. 
 		multiple files can be added at once using comma separated notation
-	git directory/repository- 
+	git directory/repository- -m argument has to be given in detail before commiting for description
 
 Highly secure: 
 	MD5/MD8 
