@@ -57,7 +57,31 @@ Note:TRY TO ALWAYS KEEP YOUR WORKING TREE CLEAN
 
 Checkout has mutliple roles:
 	followed by branch, sha key it changes the head position
-	followed by file name, it rolls back changes to the last stable version
+	(aka restore: does undo) followed by file name, it rolls back uncommitted changes to the last stable version
+	checkout/restore is a commit level command and file level command respectively
+
+Local/Private branc: visible and accessed only by you
+Public branch: by others as well
+
+Commit level: command operates on commit level ie, command is followed by sha id
+File level: command operates on file level, command is followed by file name
+
+Commands for undoing committed changes: (*interview)
+	revert: safe undo option, only on committ level, recommended to be used on public as well as private branches
+	reset: unsafe undo option, on both commit and file level, not recommended on public branches
+		note: if I wanna undo a specific sha key commit, the key directly below it is copied
+		//reset can be used to delete useless logs too, like those logs which no logner make sense given the current structure of your directory
+
+	revert: will undo specific change without affecting others, the history of the change is retained in the log, it will add another record for the revert action- hence recoverable
+	reset: will undo change from the top, ie it will roll back changes from the most recent one to the one you mentioned, the log history is permanently deleted
+
+There is not direct command for redo, but revert on revert will be redo (undo upon undo)
+
+
+
+
+
+
 
 
 	
