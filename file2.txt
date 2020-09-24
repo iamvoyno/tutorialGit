@@ -1,1 +1,3 @@
+Change 3: Resolution of previous conflict
 Change 2: This change is by a team mate to create conflict
+Change 1: This is  a change 
